@@ -1,4 +1,4 @@
-FROM wnameless/oracle-xe-11g-r2:latest
+FROM gvenzl/oracle-xe:21
 ENV ORACLE_ALLOW_REMOTE true
 ENV ORACLE_DISABLE_ASYNCH_IO=true
 
